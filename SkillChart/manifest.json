@@ -1,8 +1,8 @@
 {
-  "name": "Skills Chart",
-  "id": "1207836110040407856",
+  "name": "UI Skills Chart",
+  "id": "1243591321605113707",
   "api": "1.0.0",
-  "main": "code.js",
+  "main": "dist/code.js",
   "editorType": [
     "figjam"
   ],
