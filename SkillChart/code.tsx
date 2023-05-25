@@ -16,7 +16,6 @@ type Category = {
   name: string;
   color: string;
   skills: string[];
-  skillDescriptions: string[];
 };
 
 const strategyCategory = {
@@ -33,7 +32,6 @@ const writingCraftCategory = {
   name: "Writing",
   color: "#0D99FF",
   skills: ["Content", "Copywriting", "Systems\u200B", "Design"],
-  skillDescriptions: ["Figuring out what to write", "Finding the perfect words", "Building consistency and cohesion", "Developing your UX design chops"],
 };
 const collabCategory = {
   name: "Collaboration",
@@ -367,7 +365,6 @@ function Widget() {
             skill,
             category.name,
             category.color,
-            category.skillDescriptions[i],
             `${category.name}-${skill}`,
             role,
             showLevels,
@@ -432,7 +429,6 @@ function Skill(
   name: string,
   category: string,
   color: string,
-  skill_description: string,
   skill_key: string, // "Strategy-Product",
   role: string,
   showLevels: boolean,
@@ -613,7 +609,6 @@ function Skill(
         letterSpacing={-0.32}
         fontWeight={700}
         strokeWidth={1.391}
-        tooltip={ `${skill_description}` }
       >
         {name}
       </Text>
