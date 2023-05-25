@@ -1,242 +1,277 @@
 export const levelDescriptions = [
-    { skill: 'product',
-        level: '1',
-        description: "You ask good questions to understand who you're building for and why. You push for clarity and seek help if you don't get it. You're starting to flag dependencies and edge cases and question requirements when you're unsure how they support real user needs."
+    {
+        skill: "Accountabilities",
+        level: "D",
+        description: ""
     },
-    { skill: 'product',
-        level: '2',
-        description: 'You notice overlaps or dependencies between projects and escalate conversations to resolve them. You build confidence in a direction with your eng/PM partners before acting.'
+    {
+        skill: "Accountabilities",
+        level: "E",
+        description: ""
     },
-    { skill: 'product',
-        level: '3',
-        description: "You proactively address and resolve dependencies across team boundaries. You drive your own team toward clarity on what you're building, why, and for whom."
+    {
+        skill: "Accountabilities",
+        level: "F",
+        description: ""
     },
-    { skill: 'product',
-        level: '4',
-        description: "You handle very complex and ambiguous projects, defining requirements and prioritizing the most impactful workstreams even in the face of multiple competing demands."
+    {
+        skill: "Accountabilities",
+        level: "G",
+        description: ""
     },
-    { skill: 'product',
-        level: '5',
-        description: "You set the gold standard for problem definition; your ability to frame and scope projects are consistently clear, thoughtful, and compelling. You coach other designers on prioritization, managing dependencies, and requirements definition."
+    {
+        skill: "Accountabilities",
+        level: "H",
+        description: ""
     },
-    { skill: 'research',
-        level: '1',
-        description: ''
+    {
+        skill: "Expertise",
+        level: "D",
+        description: ""
     },
-    { skill: 'research',
-        level: '2',
-        description: ''
+    {
+        skill: "Expertise",
+        level: "E",
+        description: ""
     },
-    { skill: 'research',
-        level: '3',
-        description: ''
+    {
+        skill: "Expertise",
+        level: "F",
+        description: ""
     },
-    { skill: 'research',
-        level: '4',
-        description: ''
+    {
+        skill: "Expertise",
+        level: "G",
+        description: ""
     },
-    { skill: 'research',
-        level: '5',
-        description: ''
+    {
+        skill: "Expertise",
+        level: "H",
+        description: ""
     },
-    { skill: 'vision',
-        level: '1',
-        description: ''
+    {
+        skill: "Vision",
+        level: "D",
+        description: ""
     },
-    { skill: 'vision',
-        level: '2',
-        description: ''
+    {
+        skill: "Vision",
+        level: "E",
+        description: ""
     },
-    { skill: 'vision',
-        level: '3',
-        description: ''
+    {
+        skill: "Vision",
+        level: "F",
+        description: ""
     },
-    { skill: 'vision',
-        level: '4',
-        description: ''
+    {
+        skill: "Vision",
+        level: "G",
+        description: ""
     },
-    { skill: 'vision',
-        level: '5',
-        description: ''
+    {
+        skill: "Vision",
+        level: "H",
+        description: ""
     },
-    { skill: 'visual',
-        level: '1',
-        description: ''
+    {
+        skill: "Product Strategy",
+        level: "D",
+        description: ""
     },
-    { skill: 'visual',
-        level: '2',
-        description: ''
+    {
+        skill: "Product Strategy",
+        level: "E",
+        description: ""
     },
-    { skill: 'visual',
-        level: '3',
-        description: ''
+    {
+        skill: "Product Strategy",
+        level: "F",
+        description: ""
     },
-    { skill: 'visual',
-        level: '4',
-        description: ''
+    {
+        skill: "Product Strategy",
+        level: "G",
+        description: ""
     },
-    { skill: 'visual',
-        level: '5',
-        description: ''
+    {
+        skill: "Product Strategy",
+        level: "H",
+        description: ""
     },
-    { skill: 'interaction',
-        level: '1',
-        description: ''
+    {
+        skill: "Processes",
+        level: "D",
+        description: ""
     },
-    { skill: 'interaction',
-        level: '2',
-        description: ''
+    {
+        skill: "Processes",
+        level: "E",
+        description: ""
     },
-    { skill: 'interaction',
-        level: '3',
-        description: ''
+    {
+        skill: "Processes",
+        level: "F",
+        description: ""
     },
-    { skill: 'interaction',
-        level: '4',
-        description: ''
+    {
+        skill: "Processes",
+        level: "G",
+        description: ""
     },
-    { skill: 'interaction',
-        level: '5',
-        description: ''
+    {
+        skill: "Processes",
+        level: "H",
+        description: ""
     },
-    { skill: 'systems',
-        level: '1',
-        description: ''
+    {
+        skill: "Autonomy",
+        level: "D",
+        description: ""
     },
-    { skill: 'systems',
-        level: '2',
-        description: ''
+    {
+        skill: "Autonomy",
+        level: "E",
+        description: ""
     },
-    { skill: 'systems',
-        level: '3',
-        description: ''
+    {
+        skill: "Autonomy",
+        level: "F",
+        description: ""
     },
-    { skill: 'systems',
-        level: '4',
-        description: ''
+    {
+        skill: "Autonomy",
+        level: "G",
+        description: ""
     },
-    { skill: 'systems',
-        level: '5',
-        description: ''
+    {
+        skill: "Autonomy",
+        level: "H",
+        description: ""
     },
-    { skill: 'communication',
-        level: '1',
-        description: ''
+    {
+        skill: "Communication",
+        level: "D",
+        description: ""
     },
-    { skill: 'communication',
-        level: '2',
-        description: ''
+    {
+        skill: "Communication",
+        level: "E",
+        description: ""
     },
-    { skill: 'communication',
-        level: '3',
-        description: ''
+    {
+        skill: "Communication",
+        level: "F",
+        description: ""
     },
-    { skill: 'communication',
-        level: '4',
-        description: ''
+    {
+        skill: "Communication",
+        level: "G",
+        description: ""
     },
-    { skill: 'communication',
-        level: '5',
-        description: ''
+    {
+        skill: "Communication",
+        level: "H",
+        description: ""
     },
-    { skill: 'process',
-        level: '1',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "D",
+        description: ""
     },
-    { skill: 'process',
-        level: '2',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "E",
+        description: ""
     },
-    { skill: 'process',
-        level: '3',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "F",
+        description: ""
     },
-    { skill: 'process',
-        level: '4',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "G",
+        description: ""
     },
-    { skill: 'process',
-        level: '5',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "H",
+        description: ""
     },
-    { skill: 'mindset',
-        level: '1',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "D",
+        description: ""
     },
-    { skill: 'mindset',
-        level: '2',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "E",
+        description: ""
     },
-    { skill: 'mindset',
-        level: '3',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "F",
+        description: ""
     },
-    { skill: 'mindset',
-        level: '4',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "G",
+        description: ""
     },
-    { skill: 'mindset',
-        level: '5',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "H",
+        description: ""
     },
-    { skill: 'effectiveness',
-        level: '1',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "D",
+        description: ""
     },
-    { skill: 'effectiveness',
-        level: '2',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "E",
+        description: ""
     },
-    { skill: 'effectiveness',
-        level: '3',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "F",
+        description: ""
     },
-    { skill: 'effectiveness',
-        level: '4',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "G",
+        description: ""
     },
-    { skill: 'effectiveness',
-        level: '5',
-        description: ''
+    {
+        skill: "Team Growth",
+        level: "H",
+        description: ""
     },
-    { skill: 'leadership',
-        level: '1',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "D",
+        description: ""
     },
-    { skill: 'leadership',
-        level: '2',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "E",
+        description: ""
     },
-    { skill: 'leadership',
-        level: '3',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "F",
+        description: ""
     },
-    { skill: 'leadership',
-        level: '4',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "G",
+        description: ""
     },
-    { skill: 'leadership',
-        level: '5',
-        description: ''
+    {
+        skill: "Manager competencies",
+        level: "H",
+        description: ""
     },
-    { skill: 'citizenship',
-        level: '1',
-        description: ''
-    },
-    { skill: 'citizenship',
-        level: '2',
-        description: ''
-    },
-    { skill: 'citizenship',
-        level: '3',
-        description: ''
-    },
-    { skill: 'citizenship',
-        level: '4',
-        description: ''
-    },
-    { skill: 'citizenship',
-        level: '5',
-        description: ''
-    }
 ];

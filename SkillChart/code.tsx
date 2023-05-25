@@ -20,16 +20,14 @@ type Category = {
 };
 
 const strategyCategory = {
-  name: "Strategy",
-  color: "#9747FF",
-  skills: ["Product", "Research", "Vision"],
-  skillDescriptions: ["What we're building and why", "Qualitative and quantitative evidence", "Future pathways and how things fit together"],
+  name: "Craft",
+  color: "#E1EAFD",
+  skills: ["Accountabilities", "Expertise"],
 };
 const craftCategory = {
-  name: "Craft",
-  color: "#0D99FF",
-  skills: ["Visual", "Interaction", "Systems"],
-  skillDescriptions: ["How things look", "How things behave", "Underlying models, IAs, etc."],
+  name: "Strategy",
+  color: "#FEFAE7",
+  skills: ["Vision", "Product Strategy"],
 };
 const writingCraftCategory = {
   name: "Writing",
@@ -39,18 +37,16 @@ const writingCraftCategory = {
 };
 const collabCategory = {
   name: "Collaboration",
-  color: "#14AE5C",
-  skills: ["Communication", "Process", "Mindset"],
-  skillDescriptions: ["Written, verbal, and interpersonal skills", "Resiliency and growth orientation", "Sharing work and incorporating feedback"],
+  color: "#E8FCF0",
+  skills: ["Processes", "Autonomy", "Communication"],
 };
 const impactCategory = {
   name: "Impact",
-  color: "#FFCD29",
-  skills: ["Effectiveness", "Leadership", "Citizenship"],
-  skillDescriptions: ["Output, follow-through, and business impact", "Mentorship, ability to influence and drive change", "Improving our culture, hiring, and company practices"],
+  color: "#E9E6FD",
+  skills: ["Leadership", "Culture"],
 };
 
-const categories = [strategyCategory, craftCategory, writingCraftCategory, collabCategory, impactCategory];
+const categories = [strategyCategory, craftCategory, collabCategory, impactCategory];
 
 function Widget() {
   const voteMap = useSyncedMap<number>("skill-level")
